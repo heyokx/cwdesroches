@@ -1,0 +1,17 @@
+{
+  "name": "cwdesroches",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "wrangler pages deploy --commit-dirty=true",
+    "dev": "wrangler pages dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.0",
+  "devDependencies": {
+    "wrangler": "4.139.0"
+  }
+}

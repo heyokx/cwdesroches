@@ -1,0 +1,60 @@
+:root {
+  --main-bg-color: #001627;
+  --body-content-color: #D4DEEB;
+  --link-color: #00CAA9;
+  --focus-color: #9EFFEF;
+  --unfocus-color: #00CAA9;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--main-bg-color);
+  color: var(--body-content-color);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+header {
+  margin-top: 4rem;
+}
+
+footer {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+footer img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+a {
+  outline-color: transparent;
+  text-decoration: none;
+}
+
+a:link {
+  color: var(--link-color);
+}
+
+a:visited {
+  color: var(--unfocus-color);
+}
+
+a:focus {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--focus-color);
+}
